@@ -13,7 +13,7 @@
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
-            padding-bottom: 80px; /* Ensures content isn't hidden under the fixed navbar */
+            padding: 0; /* Ensures content isn't hidden under the fixed navbar */
             color: #333;
             background-color: #f5f5f5;
         }
@@ -26,7 +26,7 @@
         }
     
         header {
-            height: 80px; /* Navbar height */
+            height: 150px; /* Navbar height */
             width: 100%;
             background: #fff;
             text-align: center;
@@ -177,6 +177,7 @@
             }
         }
     </style>
+    
     
     <script>
         console.log("JavaScript loaded");
