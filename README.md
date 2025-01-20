@@ -13,7 +13,7 @@
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
-            padding: 0; /* Ensures content isn't hidden under the fixed navbar */
+            padding-top: 150px; /* Ensures content isn't hidden under the fixed navbar */
             color: #333;
             background-color: #f5f5f5;
         }
@@ -31,7 +31,7 @@
             background: #fff;
             text-align: center;
             padding: 20px 0;
-            position: sticky;
+            position: fixed;
             top: 0;
             z-index: 1000;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
