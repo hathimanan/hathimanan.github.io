@@ -1,5 +1,4 @@
 # hathimanan.github.io
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -296,7 +295,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Manan Hathi. All rights reserved.</p>
+        <p>&copy; 2025 Manan Hathi. All rights reserved.</p>
     </footer>
 </body>
 
