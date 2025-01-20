@@ -13,7 +13,7 @@
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
-            padding-top: 80px; /* Matches the height of the navbar */
+            padding-top: 80px; /* Ensures content isn't hidden under the fixed navbar */
             color: #333;
             background-color: #f5f5f5;
         }
@@ -132,8 +132,12 @@
             padding: 20px 0;
         }
     
-        /* Media Queries for smaller screens */
+        /* Mobile View (for small screens) */
         @media (max-width: 768px) {
+            body {
+                padding-top: 120px; /* Adjusted top padding to account for navbar + hamburger height */
+            }
+    
             header h1 {
                 font-size: 2em;
             }
@@ -149,7 +153,7 @@
                 width: 100%;
                 text-align: center;
                 position: absolute;
-                top: 80px; /* Adjusted to avoid overlap with header */
+                top: 80px; /* Adjusted so that it doesn't overlap with the header */
                 left: 0;
                 padding: 10px 0;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
