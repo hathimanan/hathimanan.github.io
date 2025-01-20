@@ -23,13 +23,13 @@
 
 
         header {
-            height: 80px; /* Adjust as needed */
+           /* height: 80px; *//* Adjust as needed */
             width: 100%;
             background: #fff;
             text-align: center;
             padding: 20px 0;
             position: sticky;
-            top: 0;
+            top: 30%;
             z-index: 1000;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
