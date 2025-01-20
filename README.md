@@ -13,7 +13,7 @@
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
-            padding-top: 80px; /* Ensures content isn't hidden under the fixed navbar */
+            padding-bottom: 80px; /* Ensures content isn't hidden under the fixed navbar */
             color: #333;
             background-color: #f5f5f5;
         }
