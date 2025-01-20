@@ -23,10 +23,11 @@
 
 
         header {
+            height: 80px; /* Adjust as needed */
             width: 100%;
             background: #fff;
             text-align: center;
-            padding: 20px 0;
+            padding: 10px 0;
             position: sticky;
             top: 0;
             z-index: 1000;
