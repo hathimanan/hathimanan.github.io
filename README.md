@@ -1,167 +1,175 @@
 # hathimanan.github.io
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manan Hathi - Portfolio</title>
     <style>
         body {
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 0;
-        color: #333;
-        background-color: #f5f5f5;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
         }
-        
+
         .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        }
-        
-        header {
-        width: 100%;
-        background: #fff;
-        text-align: center;
-        padding: 20px 0;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-    
-        .header h1 {
-        margin: 0;
-        font-size: 2.5em;
-        color: #333;
-        }
-    
-    header h2 {
-        margin: 0;
-        font-size: 1.5em;
-        color: #555;
-    }
-    
-    nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-    
-    nav ul {
-        list-style: none;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
-    nav ul li {
-        margin: 0 20px;
-    }
-    
-    nav ul li a {
-        text-decoration: none;
-        color: #555;
-        padding: 8px 15px;
-        border-radius: 5px;
-        transition: background-color 0.3s, color 0.3s;
-    }
-    
-    nav ul li a:hover {
-        background-color: #e0e0e0;
-        color: #333;
-    }
-    
-    .hamburger {
-        display: none;
-        flex-direction: column;
-        justify-content: space-around;
-        width: 30px;
-        height: 21px;
-        cursor: pointer;
-    }
-    
-    .hamburger .line {
-        width: 100%;
-        height: 3px;
-        background-color: #333;
-        border-radius: 2px;
-        transition: all 0.3s;
-    }
-    
-    section {
-        padding: 20px;
-        max-width: 1200px;
-        width: 100%;
-        background-color: #fff;
-        margin: 20px 0;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
-    }
-    
-    section h2 {
-        border-bottom: 2px solid #333;
-        padding-bottom: 10px;
-        color: #333;
-    }
-    
-    .experience-item, .project-item, .education-item {
-        margin-bottom: 20px;
-    }
-    
-    ul {
-        list-style: disc inside;
-        color: #555;
-    }
-    
-    footer {
-        background: #333;
-        color: #fff;
-        text-align: center;
-        padding: 20px 0;
-    }
-    
-    @media (max-width: 768px) {
-        header h1 {
-            font-size: 2em;
-        }
-    
-        header h2 {
-            font-size: 1.2em;
-        }
-    
-        nav ul {
+            display: flex;
             flex-direction: column;
-            display: none;
-            background-color: #fff;
+            align-items: center;
+            padding: 20px;
+        }
+
+
+        header {
             width: 100%;
+            background: #fff;
             text-align: center;
-            position: absolute;
-            top: 60px;
-            left: 0;
-            padding: 10px 0;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-    
-        nav ul li {
-            margin: 10px 0;
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
         }
-    
-        .hamburger {
+
+        header h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #555;
+        }
+
+        nav {
             display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
         }
-    }
 
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #555;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #e0e0e0;
+            color: #333;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 30px;
+            height: 21px;
+            cursor: pointer;
+        }
+
+        .hamburger .line {
+            width: 100%;
+            height: 3px;
+            background-color: #333;
+            border-radius: 2px;
+            transition: all 0.3s;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            width: 100%;
+            background-color: #fff;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            color: #333;
+        }
+
+        .experience-item,
+        .project-item,
+        .education-item {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: disc inside;
+            color: #555;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header h2 {
+                font-size: 1.2em;
+            }
+
+            nav ul {
+                flex-direction: column;
+                display: none;
+                background-color: #fff;
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                padding: 10px 0;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+        }
     </style>
-    <script> 
+    <script>
         console.log("JavaScript loaded");
     </script>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -176,7 +184,17 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="hamburger" id="hamburger">
+                <div class="hamburger" id="hamburger" aria-label="Menu">
+                    <script>
+                        document.addEventListener("DOMContentLoaded", () => {
+                            const hamburger = document.getElementById("hamburger");
+                            const navLinks = document.getElementById("nav-links");
+
+                            hamburger.addEventListener("click", () => {
+                                navLinks.classList.toggle("active");
+                            });
+                        });
+                    </script>
                     <div class="line"></div>
                     <div class="line"></div>
                     <div class="line"></div>
@@ -187,7 +205,9 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm Manan Hathi, a Software Engineer based in Ahmedabad, India. I specialize in software testing, cybersecurity, and full-stack development. With a strong educational background and hands-on experience, I aim to contribute to innovative and secure software solutions.</p>
+        <p>Hi, I'm Manan Hathi, a Software Engineer based in Ahmedabad, India. I specialize in software testing,
+            cybersecurity, and full-stack development. With a strong educational background and hands-on experience, I
+            aim to contribute to innovative and secure software solutions.</p>
     </section>
 
     <section id="experience">
@@ -197,7 +217,8 @@
             <p><em>KiwiQA Services Pvt. Ltd. | 07/2023 - Present, Ahmedabad, India</em></p>
             <ul>
                 <li>Completed a 6-month internship and was promoted to Associate Software Test Engineer.</li>
-                <li>Implemented Regression Testing and Functional Testing, identifying 15+ bugs in an insurance domain project.</li>
+                <li>Implemented Regression Testing and Functional Testing, identifying 15+ bugs in an insurance domain
+                    project.</li>
                 <li>Streamlined documentation process for a software testing project.</li>
                 <li>Performed file data verification tasks, identifying 500+ defects.</li>
             </ul>
@@ -209,7 +230,8 @@
         <div class="project-item">
             <h3>Security Testing using Burp Suite and NMap</h3>
             <p><em>02/2023 - 04/2023</em></p>
-            <p>Secured a perfect GPA of 10 in college for this project. Directed forwarding and used 1000+ requests/responses for VAPT.</p>
+            <p>Secured a perfect GPA of 10 in college for this project. Directed forwarding and used 1000+
+                requests/responses for VAPT.</p>
         </div>
         <div class="project-item">
             <h3>Pharmacy Management System</h3>
@@ -236,7 +258,8 @@
             <p><em>Charotar University of Science And Technology, Changa | 07/2019 - 05/2023</em></p>
             <ul>
                 <li>Programming Languages: C, C++, Java, Python, JavaScript, Dotnet, C#</li>
-                <li>Focus on AI, Data Structures & Algorithms, Software Engineering, Information Security, Blockchain Technology, Operating Systems including Linux Essentials</li>
+                <li>Focus on AI, Data Structures & Algorithms, Software Engineering, Information Security, Blockchain
+                    Technology, Operating Systems including Linux Essentials</li>
             </ul>
         </div>
     </section>
@@ -276,4 +299,5 @@
         <p>&copy; 2023 Manan Hathi. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
