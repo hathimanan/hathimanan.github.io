@@ -9,7 +9,7 @@
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
-            padding: 0;
+            padding-top: 80px;
             color: #333;
             background-color: #f5f5f5;
         }
@@ -23,13 +23,13 @@
 
 
         header {
-           /* height: 80px; *//* Adjust as needed */
+            height: 80px; /* Adjust as needed */
             width: 100%;
             background: #fff;
             text-align: center;
-            padding: 20px 0;
+            padding: 10px 0;
             position: sticky;
-            top: 30%;
+            top: 0;
             z-index: 1000;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
