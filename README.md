@@ -9,28 +9,24 @@
         html {
             scroll-behavior: smooth;
         }
-
+    
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
-            padding-top: 80px;
-            /* Make sure it matches the height of the navbar */
+            padding-top: 80px; /* Matches the height of the navbar */
             color: #333;
             background-color: #f5f5f5;
         }
-
-
+    
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 20px;
         }
-
-
+    
         header {
-            height: 80px;
-            /* Adjust as needed */
+            height: 80px; /* Navbar height */
             width: 100%;
             background: #fff;
             text-align: center;
@@ -40,26 +36,26 @@
             z-index: 1000;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-
+    
         header h1 {
             margin: 0;
             font-size: 2.5em;
             color: #333;
         }
-
+    
         header h2 {
             margin: 0;
             font-size: 1.5em;
             color: #555;
         }
-
+    
         nav {
             display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
         }
-
+    
         nav ul {
             list-style: none;
             padding: 0;
@@ -67,11 +63,11 @@
             justify-content: center;
             flex-wrap: wrap;
         }
-
+    
         nav ul li {
             margin: 0 20px;
         }
-
+    
         nav ul li a {
             text-decoration: none;
             color: #555;
@@ -79,12 +75,12 @@
             border-radius: 5px;
             transition: background-color 0.3s, color 0.3s;
         }
-
+    
         nav ul li a:hover {
             background-color: #e0e0e0;
             color: #333;
         }
-
+    
         .hamburger {
             display: none;
             flex-direction: column;
@@ -93,7 +89,7 @@
             height: 21px;
             cursor: pointer;
         }
-
+    
         .hamburger .line {
             width: 100%;
             height: 3px;
@@ -101,7 +97,7 @@
             border-radius: 2px;
             transition: all 0.3s;
         }
-
+    
         section {
             padding: 20px;
             max-width: 1200px;
@@ -111,40 +107,41 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
         }
-
+    
         section h2 {
             border-bottom: 2px solid #333;
             padding-bottom: 10px;
             color: #333;
         }
-
+    
         .experience-item,
         .project-item,
         .education-item {
             margin-bottom: 20px;
         }
-
+    
         ul {
             list-style: disc inside;
             color: #555;
         }
-
+    
         footer {
             background: #333;
             color: #fff;
             text-align: center;
             padding: 20px 0;
         }
-
+    
+        /* Media Queries for smaller screens */
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2em;
             }
-
+    
             header h2 {
                 font-size: 1.2em;
             }
-
+    
             nav ul {
                 flex-direction: column;
                 display: none;
@@ -152,30 +149,31 @@
                 width: 100%;
                 text-align: center;
                 position: absolute;
-                top: 60px;
+                top: 80px; /* Adjusted to avoid overlap with header */
                 left: 0;
                 padding: 10px 0;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             }
-
+    
             /* Display the menu when active */
             .nav-links.active {
                 display: flex;
             }
-
+    
             nav ul li {
                 margin: 10px 0;
             }
-
+    
             .hamburger {
                 display: flex;
             }
-
+    
             .hamburger .line {
                 background-color: #333;
             }
         }
     </style>
+    
     <script>
         console.log("JavaScript loaded");
     </script>
