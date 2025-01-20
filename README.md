@@ -6,13 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manan Hathi - Portfolio</title>
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding-top: 80px;
+            /* Make sure it matches the height of the navbar */
             color: #333;
             background-color: #f5f5f5;
         }
+
 
         .container {
             display: flex;
@@ -23,7 +29,8 @@
 
 
         header {
-            height: 80px; /* Adjust as needed */
+            height: 80px;
+            /* Adjust as needed */
             width: 100%;
             background: #fff;
             text-align: center;
@@ -151,6 +158,11 @@
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             }
 
+            /* Display the menu when active */
+            .nav-links.active {
+                display: flex;
+            }
+
             nav ul li {
                 margin: 10px 0;
             }
@@ -159,10 +171,9 @@
                 display: flex;
             }
 
-            .nav-links.active {
-                display: flex;
+            .hamburger .line {
+                background-color: #333;
             }
-
         }
     </style>
     <script>
@@ -194,6 +205,7 @@
                                 navLinks.classList.toggle("active");
                             });
                         });
+
                     </script>
                     <div class="line"></div>
                     <div class="line"></div>
