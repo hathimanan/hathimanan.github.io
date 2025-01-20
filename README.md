@@ -14,7 +14,7 @@
         background-color: #f5f5f5;
         }
         
-        container {
+        .container {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -32,7 +32,7 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
     
-        header h1 {
+        .header h1 {
         margin: 0;
         font-size: 2.5em;
         color: #333;
