@@ -24,6 +24,7 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
+            margin-top: 100px;
         }
     
         header {
