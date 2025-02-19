@@ -12,7 +12,7 @@
     
         body {
             font-family: 'Roboto', sans-serif;
-            padding-top: 160px; /* Adjust to match header height */
+            padding-top: 180px; /* Adjust to match header height */
             color: #333;
             background-color: #f5f5f5;
         }
@@ -22,16 +22,12 @@
         }
         
         header {
-            height: 150px; /* Ensure header height is consistent */
-            width: 100%;
-            background: #fff;
-            text-align: center;
-            padding: 20px 0;
+            height: 150px; /* Set an exact height */
             position: fixed;
             top: 0;
-            left: 0;
+            width: 100%;
+            background: white;
             z-index: 1000;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
     
         header h1 {
