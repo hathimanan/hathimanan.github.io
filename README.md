@@ -12,27 +12,24 @@
     
         body {
             font-family: 'Roboto', sans-serif;
-            padding-top: 120px; /* Ensures content isn't hidden under the fixed navbar */
+            padding-top: 160px; /* Adjust to match header height */
             color: #333;
             background-color: #f5f5f5;
         }
-    
+        
         .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            margin-top: 100px;
+            margin-top: 20px; /* Reduce excess spacing */
         }
-    
+        
         header {
-            height: 150px; /* Navbar height */
+            height: 150px; /* Ensure header height is consistent */
             width: 100%;
             background: #fff;
             text-align: center;
             padding: 20px 0;
             position: fixed;
             top: 0;
+            left: 0;
             z-index: 1000;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
