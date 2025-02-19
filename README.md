@@ -63,6 +63,7 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            color: white;
         }
     
         nav ul li {
@@ -71,7 +72,7 @@
     
         nav ul li a {
             text-decoration: none;
-            color: #555;
+            color: white;
             padding: 8px 15px;
             border-radius: 5px;
             transition: background-color 0.3s, color 0.3s;
