@@ -7,7 +7,7 @@
     <title>Manan Hathi - Portfolio</title>
     <style>
         html {
-            scroll-padding-top: 160px;
+            scroll-padding-top: 190px;
             scroll-behavior: smooth;
         }
     
