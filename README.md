@@ -14,6 +14,7 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding-top: 150px; /* Ensures content isn't hidden under the fixed navbar */
+            padding: 0 20px;
             color: #333;
             background-color: #f5f5f5;
         }
