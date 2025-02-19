@@ -129,6 +129,7 @@
 
         section:nth-child(even) {
             background-color: yellow;
+            color: black;
         }
 
 
