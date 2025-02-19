@@ -23,7 +23,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: blueviolet;
             margin-top: 50px; /* Adjust this as needed */
             padding: 20px;
         }
@@ -33,7 +32,7 @@
             top: 0;
             width: 100%;
             height: 280px;
-            background: #fff;
+            background: blueviolet;
             z-index: 1000;
         }
     
