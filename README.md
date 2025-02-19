@@ -23,6 +23,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            background-color: blueviolet;
             margin-top: 50px; /* Adjust this as needed */
             padding: 20px;
         }
