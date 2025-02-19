@@ -41,6 +41,7 @@
             margin: 0;
             font-size: 2.5em;
             color: white;
+            background-color: orange;
         }
     
         header h2 {
@@ -104,7 +105,7 @@
             padding: 20px;
             max-width: 1200px;
             width: 100%;
-            background-color: #fff;
+            background-color: lightgreen;
             margin: 50px 0; /* Increased margin for better separation */
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
@@ -113,7 +114,7 @@
         section h2 {
             border-bottom: 2px solid #333;
             padding-bottom: 10px;
-            color: #333;
+            color: white;
         }
 
         section::after {
