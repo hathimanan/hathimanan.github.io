@@ -46,7 +46,7 @@
         header h2 {
             margin-top: 10px; /* Adjust as needed */
             font-size: 1.5em;
-            color: #555;
+            color: white;
         }
     
         nav {
@@ -54,6 +54,7 @@
             justify-content: center;
             align-items: center;
             position: relative;
+            color: white;
         }
     
         nav ul {
