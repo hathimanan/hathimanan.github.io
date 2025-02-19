@@ -41,9 +41,10 @@
             margin: 0;
             font-size: 2.5em;
             color: white;
-            background-color: orange;
         }
-    
+       h1.hathimanangithub.io    {
+           background-color: orange;
+       }
         header h2 {
             margin-top: 10px; /* Adjust as needed */
             font-size: 1.5em;
