@@ -15,7 +15,7 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding-top: 170px; /* Ensures content isn't hidden under the fixed navbar */
-            color: #333;
+            color: white;
             background-color: #f5f5f5;
         }
     
@@ -32,6 +32,7 @@
             top: 0;
             width: 100%;
             height: 280px;
+            color: white;
             background: blueviolet;
             z-index: 1000;
         }
@@ -39,7 +40,7 @@
         header h1 {
             margin: 0;
             font-size: 2.5em;
-            color: #333;
+            color: white;
         }
     
         header h2 {
