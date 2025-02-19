@@ -12,21 +12,26 @@
     
         body {
             font-family: 'Roboto', sans-serif;
-            padding-top: 180px; /* Adjust to match header height */
+            margin: 0;
+            padding-top: 170px; /* Ensures content isn't hidden under the fixed navbar */
             color: #333;
             background-color: #f5f5f5;
         }
-        
+    
         .container {
-            margin-top: 20px; /* Reduce excess spacing */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px; /* Adjust this as needed */
+            padding: 20px;
         }
-        
+    
         header {
-            height: 150px; /* Set an exact height */
             position: fixed;
             top: 0;
             width: 100%;
-            background: white;
+            height: 150px;
+            background: #fff;
             z-index: 1000;
         }
     
