@@ -48,7 +48,7 @@
         header h2 {
             margin-top: 10px; /* Adjust as needed */
             font-size: 1.5em;
-            color: black;
+            color: white;
         }
     
         nav {
@@ -116,7 +116,7 @@
         section h2 {
             border-bottom: 2px solid #333;
             padding-bottom: 10px;
-            color: white;
+            color: black;
         }
 
         section::after {
