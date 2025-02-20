@@ -61,7 +61,6 @@
     
         nav ul {
             list-style: none;
-            padding: 10px 0;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
