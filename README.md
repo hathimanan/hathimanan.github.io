@@ -104,7 +104,7 @@
             padding: 20px;
             max-width: 1200px;
             width: 100%;
-            color: black;
+            color: blue;
             background-color: royalblue;
             margin: 50px 0; /* Increased margin for better separation */
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
