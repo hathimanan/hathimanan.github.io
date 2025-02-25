@@ -110,6 +110,9 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
         }
+        section a    {
+            color: yellow;
+        }
     
         section h2 {
             border-bottom: 2px solid #333;
