@@ -127,7 +127,7 @@
         }
 
         section:nth-child(even) {
-            background-color: darkorange;
+            background-color: orangered;
             color: black;
         }
 
@@ -140,7 +140,7 @@
     
         ul {
             list-style: disc inside;
-            color: #555;
+            color: black;
         }
     
         footer {
