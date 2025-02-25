@@ -153,15 +153,6 @@
             padding: 20px 0;
         }
 
-        .profile-img {
-            width: 150px; /* Adjust size */
-            height: 150px;
-            border-radius: 50%; /* Makes it circular */
-            object-fit: cover; /* Ensures proper image fit */
-            border: 3px solid white;
-            margin-bottom: 10px; /* Space between image and text */
-        }
-
 
     
         /* Mobile View (for small screens) */
@@ -219,7 +210,6 @@
 <body>
     <header>
         <div class="container">
-            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
             <h1>Manan Hathi</h1>
             <h2>Software Engineer</h2>
             <nav>
