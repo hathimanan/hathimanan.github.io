@@ -33,7 +33,7 @@
             width: fit-content;
             height: 280px;
             color: white;
-            background: blueviolet;
+            background: green;
             z-index: 1000;
         }
     
@@ -106,7 +106,7 @@
             max-width: 1200px;
             width: 100%;
             color: black;
-            background-color: lightgreen;
+            background-color: royalblue;
             margin: 50px 0; /* Increased margin for better separation */
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
@@ -128,7 +128,7 @@
         }
 
         section:nth-child(even) {
-            background-color: yellow;
+            background-color: orangered;
             color: black;
         }
 
