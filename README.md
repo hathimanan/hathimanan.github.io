@@ -253,7 +253,7 @@
                 <li> Successfully completed a 6-month internship and was promoted to a full time QA role following a performance review</li>
                 <li><b>Insurance Domain Project</b> – Authored 200+ test cases, executed tests, and identified 100+ issues.</li>
                 <li><b>Education Domain Project</b> – Created and executed 150+ test cases, uncovering 40+ defects</li>
-                <li> <b>HRMS Domain Project</b> – Currently involved in multiple modules, developing and executing 1000+ test cases, and reporting 50+ defects.</li>
+                <li> <b>HRMS Domain Project</b> – Currently involved in multiple modules, developing and executing 1000+ test cases, and reporting 200+ defects.</li>
                 <li>  Contributed to streamlining QMS (Quality Management System) documentation for the organization. </li>
             </ul>
         </div>
@@ -264,13 +264,28 @@
         <div class="project-item">
             <h3>Security Testing using Burp Suite and NMap</h3>
             <p><em>02/2023 - 04/2023</em></p>
-            <p>Secured a perfect GPA of 10 in college for this project. Directed forwarding and used 1000+
-                requests/responses for VAPT.</p>
+            <p>Secured a perfect GPA of 10 in college for this project. Directed forwarding and used 1000+ requests/responses for VAPT.</p>
+            <p> Used Burp Suite for Network Interception, Pen Testing attacks and Intrusion attacks. </p>
+            <p> Used NMap for Network scanning,mapping,analyzing and Packet filtering. </p>
         </div>
         <div class="project-item">
             <h3>Pharmacy Management System</h3>
             <p><em>04/2022 - 05/2022</em></p>
-            <p>Developed an efficient, scalable system using ASP.NET, C#, Visual Studio, and Visual Studio Code.</p>
+            <p>Developed an efficient, scalable system from scratch using ASP.NET, C#, Visual Studio, and Visual Studio Code.</p>
+            <p> Developed modules such as Dashboard, Products, Orders, Profile. </p>
+        </div>
+        <div class="project-item">
+            <h3>College Management App</h3>
+            <p><em>07/2021 - 11/2021</em></p>
+            <p> Developed a college management application using Android Studio and Firebase keeping CHARUSAT University students as End Users. </p>
+            <p> Developed college app for Students as well as Admin as well as Faculty </p>
+            <p> Developed modules for Student app- Profile,Faculty,Attendance,Payment,Results. </p>
+        </div>
+            <div class="project-item">
+            <h3>Quizlet</h3>
+            <p><em>01/2022 - 05/2022</em></p>
+            <p> Developed a quiz management application using Javascript,HTML,CSS and MongoDB. </p>
+            <p> Developed modules for various types of Quizzes. </p>
         </div>
     </section>
 
