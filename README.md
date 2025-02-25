@@ -241,9 +241,7 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm Manan Hathi, a Software Engineer based in Ahmedabad, India. I specialize in software testing,
-            cybersecurity, and full-stack development. With a strong educational background and hands-on experience, I
-            aim to contribute to innovative and secure software solutions.</p>
+        <p>Hi, I'm Manan Hathi, a Software Engineer based in Ahmedabad, India. I specialize in software testing,cybersecurity, and full-stack development. With a strong educational background and hands-on experience, I aim to contribute to innovative and secure software solutions. I am also adept in Blogging. I have completed basic courses for AWS and Azure cloud services. My interests include exploring Security domain, playing Chess, reading, music, and blogging. </p>
     </section>
 
     <section id="experience">
