@@ -218,8 +218,8 @@
 
 <body>
     <header>
-        <img src="profile.jpg" alt="Profile Picture" class="profile-img">
         <div class="container">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
             <h1>Manan Hathi</h1>
             <h2>Software Engineer</h2>
             <nav>
