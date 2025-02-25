@@ -32,7 +32,7 @@
             width: fit-content;
             height: 280px;
             color: white;
-            background: green;
+            background: limegreen;
             z-index: 1000;
         }
     
