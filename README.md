@@ -128,7 +128,7 @@
         }
 
         section:nth-child(even) {
-            background-color: orangered;
+            background-color: darkorange;
             color: black;
         }
 
