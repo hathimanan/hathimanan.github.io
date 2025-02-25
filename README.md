@@ -30,7 +30,7 @@
         header {
             position: fixed;
             top: 0;
-            width: 100%;
+            width: fit-content;
             height: 280px;
             color: white;
             background: blueviolet;
