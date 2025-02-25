@@ -16,7 +16,7 @@
             margin: 0;
             padding-top: 170px; /* Ensures content isn't hidden under the fixed navbar */
             color: white;
-            background-color: #f5f5f5;
+            background-color: Black;
         }
     
         .container {
