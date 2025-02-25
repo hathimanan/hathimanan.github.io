@@ -247,14 +247,14 @@
     <section id="experience">
         <h2>Professional Experience</h2>
         <div class="experience-item">
-            <h3>Associate Software Test Engineer</h3>
+            <h3>Software Test Engineer</h3>
             <p><em>KiwiQA Services Pvt. Ltd. | 07/2023 - Present, Ahmedabad, India</em></p>
             <ul>
-                <li>Completed a 6-month internship and was promoted to Associate Software Test Engineer.</li>
-                <li>Implemented Regression Testing and Functional Testing, identifying 15+ bugs in an insurance domain
-                    project.</li>
-                <li>Streamlined documentation process for a software testing project.</li>
-                <li>Performed file data verification tasks, identifying 500+ defects.</li>
+                <li> Successfully completed a 6-month internship and was promoted to a full time QA role following a performance review</li>
+                <li><b>Insurance Domain Project</b> – Authored 200+ test cases, executed tests, and identified 100+ issues.</li>
+                <li><b>Education Domain Project</b> – Created and executed 150+ test cases, uncovering 40+ defects</li>
+                <li> <b>HRMS Domain Project</b> – Currently involved in multiple modules, developing and executing 1000+ test cases, and reporting 50+ defects.</li>
+                <li>  Contributed to streamlining QMS (Quality Management System) documentation for the organization. </li>
             </ul>
         </div>
     </section>
